@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  
+    int a;
+    cin >> a;
+
+    // for(int i=1;i<=10;i++)
+    // {
+    //     cout << a <<"x" << i << "=" << a*i <<endl;
+    // }
+    
+    int i = 1;
+    while(i<=10)
+    {
+       cout << a <<"x" << i << "=" << a*i <<endl;
+       i++; 
+    }
+    return 0;
+}
